@@ -1,0 +1,51 @@
+{
+  "name": "Instituto - Excelência em Atendimento",
+  "short_name": "Instituto",
+  "description": "Uma instituição preparada para oferecer atendimento humanizado, estrutura moderna e profissionais qualificados.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0F4C81",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-540x720.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["medical", "business", "health"],
+  "shortcuts": [
+    {
+      "name": "Agendar Consulta",
+      "short_name": "Agendar",
+      "description": "Agende sua consulta rapidamente",
+      "url": "/#contato",
+      "icons": [
+        {
+          "src": "/favicon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

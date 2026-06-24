@@ -1,0 +1,22 @@
+# Robots.txt for Instituto Landing Page
+# https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.next/
+Disallow: /admin/
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay to reduce server load
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://instituto.com.br/sitemap.xml
+Sitemap: https://instituto.com.br/sitemap-0.xml
