@@ -305,6 +305,90 @@ html.dark .bg-gradient-to-r.from-primary-50 {
   @apply bg-gray-900;
 }
 
+/* Seção Confiança - texto dos cards em dourado */
+#confianca .text-secondary-300 {
+  color: #d4a017 !important;
+}
+
+#confianca .text-primary-200 {
+  color: #b8860b !important;
+}
+
+/* Seção Confiança - ícones com fundo dourado e ícone branco */
+#confianca .w-16.h-16 {
+  background-color: #ffc107 !important;
+  background-image: none !important;
+}
+
+#confianca .w-16.h-16 svg {
+  color: #ffffff !important;
+}
+
+/* Seção Sobre - ícones com fundo dourado e ícone branco */
+#sobre .w-14.h-14,
+#sobre [class*="w-14"][class*="h-14"] {
+  background-color: #ffc107 !important;
+  background-image: none !important;
+}
+
+#sobre .w-14.h-14 svg,
+#sobre [class*="w-14"][class*="h-14"] svg {
+  color: #ffffff !important;
+}
+
+/* Seção Especialidades - ícones com fundo dourado e ícone branco */
+#especialidades .w-12.h-12,
+#especialidades [class*="w-12"][class*="h-12"] {
+  background-color: #ffc107 !important;
+  background-image: none !important;
+}
+
+#especialidades .w-12.h-12 svg,
+#especialidades [class*="w-12"][class*="h-12"] svg,
+#especialidades .group-hover\:text-white {
+  color: #ffffff !important;
+}
+
+/* Seção Contato - ícones com fundo dourado e ícone branco */
+#contato .w-12.h-12,
+#contato [class*="w-12"][class*="h-12"] {
+  background-color: #ffc107 !important;
+  background-image: none !important;
+}
+
+#contato .w-12.h-12 svg,
+#contato [class*="w-12"][class*="h-12"] svg {
+  color: #ffffff !important;
+}
+
+/* Card Transformação em Segurança - fundo dourado com texto dourado */
+#confianca > div > div > div:last-child {
+  background: linear-gradient(to right, #ffc107, #ffb300) !important;
+  background-image: none !important;
+}
+
+#confianca > div > div > div:last-child h3,
+#confianca > div > div > div:last-child p {
+  color: #d4a017 !important;
+}
+
+html.dark #confianca .text-secondary-300 {
+  color: #d4a017 !important;
+}
+
+html.dark #confianca .text-primary-200 {
+  color: #b8860b !important;
+}
+
+html.dark #confianca > div > div > div:last-child {
+  background: linear-gradient(to right, #ffc107, #ffb300) !important;
+}
+
+html.dark #confianca > div > div > div:last-child h3,
+html.dark #confianca > div > div > div:last-child p {
+  color: #d4a017 !important;
+}
+
 /* Footer - texto e ícones em dourado */
 html.dark #footer {
   background-color: #0f0f0f !important;
