@@ -361,7 +361,7 @@ html.dark .bg-gradient-to-r.from-primary-50 {
   color: #ffffff !important;
 }
 
-/* Card Transformação em Segurança - fundo dourado com texto dourado */
+/* Card Transformação em Segurança - fundo dourado com texto preto */
 #confianca > div > div > div:last-child {
   background: linear-gradient(to right, #ffc107, #ffb300) !important;
   background-image: none !important;
@@ -369,15 +369,7 @@ html.dark .bg-gradient-to-r.from-primary-50 {
 
 #confianca > div > div > div:last-child h3,
 #confianca > div > div > div:last-child p {
-  color: #d4a017 !important;
-}
-
-html.dark #confianca .text-secondary-300 {
-  color: #d4a017 !important;
-}
-
-html.dark #confianca .text-primary-200 {
-  color: #b8860b !important;
+  color: #000000 !important;
 }
 
 html.dark #confianca > div > div > div:last-child {
@@ -386,7 +378,7 @@ html.dark #confianca > div > div > div:last-child {
 
 html.dark #confianca > div > div > div:last-child h3,
 html.dark #confianca > div > div > div:last-child p {
-  color: #d4a017 !important;
+  color: #000000 !important;
 }
 
 /* Footer - texto e ícones em dourado */
@@ -570,6 +562,13 @@ a {
 
 .text-gradient {
   @apply bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent;
+}
+
+html.dark .text-gradient {
+  background: linear-gradient(to right, #ffc107, #ffb300) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
 }
 
 .card-hover {
